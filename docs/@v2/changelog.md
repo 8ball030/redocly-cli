@@ -7,6 +7,12 @@ toc:
 
 <!-- do-not-remove -->
 
+## 2.66.1 (2026-10-20)
+
+### Patch Changes
+
+- Fixed the command name shown in `--help` output, which was taken from the running file name (`index.js` or `cli.js`) instead of `redocly`.
+
 ## 2.66.0 (2026-10-20)
 
 ### Minor Changes

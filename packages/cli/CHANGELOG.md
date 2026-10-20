@@ -1,5 +1,11 @@
 # @redocly/cli
 
+## 2.66.1
+
+### Patch Changes
+
+- Fixed the command name shown in `--help` output, which was taken from the running file name (`index.js` or `cli.js`) instead of `redocly`.
+
 ## 2.66.0
 
 ### Minor Changes
