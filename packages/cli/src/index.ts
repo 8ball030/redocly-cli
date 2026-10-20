@@ -1602,6 +1602,7 @@ yargs(hideBin(process.argv))
     }
   )
   .completion('completion', 'Generate autocomplete script for `redocly` command.')
+  .scriptName('redocly')
   .demandCommand(1)
   .middleware([notifyUpdateCliVersion])
   .strict().argv;
